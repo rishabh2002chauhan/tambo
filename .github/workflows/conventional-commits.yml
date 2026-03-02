@@ -25,3 +25,4 @@ jobs:
         with:
           task_types: '["feat","fix","perf","deps","revert","docs","style","chore","refactor","test","build","ci"]'
           add_label: "false"
+          custom_labels: '{"feat":"feature","fix":"bug","docs":"documentation","test":"test","ci":"ci","refactor":"refactor","perf":"performance","chore":"chore","revert":"revert","build":"build","style":"style","deps":"dependencies"}'
