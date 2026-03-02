@@ -7,6 +7,7 @@ Documentation of the code files within the `apps/` directory.
 The core NestJS service for the Tambo Cloud platform.
 
 ### Core Files
+
 - **`src/main.ts`**: Entry point. Sets up NestJS, Sentry, OpenTelemetry, and Swagger.
 - **`src/app.module.ts`**: The root module that imports all other feature modules.
 - **`src/app.controller.ts`**: Root controller for basic health checks.
@@ -17,6 +18,7 @@ The core NestJS service for the Tambo Cloud platform.
 - **`src/sentry.ts`**: Sentry error tracking initialization.
 
 ### Modules & Features
+
 - **`src/v1/`**: Implements the V1 API version.
   - `v1.module.ts`, `v1.controller.ts`, `v1.service.ts`: Core V1 API logic.
   - `v1-tool-results.ts`: Logic for handling tool execution results.
@@ -64,6 +66,7 @@ The core NestJS service for the Tambo Cloud platform.
 The Next.js 15 frontend for managing Tambo projects.
 
 ### App Router (`app/`)
+
 - **`layout.tsx`**, **`providers.tsx`**: Root layout and global context providers.
 - **`(authed)/`**: Protected routes for the dashboard.
 - **`login/`**, **`unauthorized/`**: Auth pages.
@@ -73,6 +76,7 @@ The Next.js 15 frontend for managing Tambo projects.
 - **`demo/`**, **`slack/`**, **`subscribe/`**: Specialized feature pages.
 
 ### Components (`components/`)
+
 - **`ui/`**: Reusable primitive components.
 - **`sections/`**: Page sections like `hero.tsx`, `pricing.tsx`.
 - **`dashboard-components/`**: UI for project management and onboarding.
@@ -81,6 +85,7 @@ The Next.js 15 frontend for managing Tambo projects.
 - **`auth/`**: Auth forms.
 
 ### Server Logic (`server/`)
+
 - **`api/root.ts`**: Main tRPC router.
 - **`api/routers/`**: Specific routers for projects, threads, etc.
 - **`api/trpc.ts`**: tRPC server initialization.
@@ -90,6 +95,7 @@ The Next.js 15 frontend for managing Tambo projects.
 ## `apps/docs-mcp`
 
 Specialized documentation app for MCP.
+
 - **`app/page.tsx`**, **`app/layout.tsx`**.
 - **`lib/`**: MCP-related utilities.
 
@@ -98,4 +104,5 @@ Specialized documentation app for MCP.
 ## `apps/test-mcp-server`
 
 Reference MCP server.
+
 - **`src/index.ts`**, **`src/server.ts`**.

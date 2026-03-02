@@ -7,6 +7,7 @@ Documentation of code files within the `scripts/` directory and at the repositor
 A collection of utility scripts for managing the repository.
 
 ### Cloud Maintenance (`scripts/cloud/`)
+
 - **`init-database.sh`**: Initializes the Tambo Cloud database (Postgres) and runs Drizzle migrations.
 - **`tambo-setup.sh`**: Bootstraps the local Tambo Cloud development environment.
 - **`tambo-build.sh`**: Builds all apps and packages for production.
@@ -17,6 +18,7 @@ A collection of utility scripts for managing the repository.
 - **`smoke-mcp.sh`**: Runs a series of smoke tests to verify MCP functionality.
 
 ### Core Scripts
+
 - **`dev-local.sh`**: A helper script to run the API and Web frontend simultaneously.
 - **`debug-stream.ts`**: A utility script for debugging SSE event streams.
 - **`workspace-packages.mjs`**: Utilities for working with the monorepo workspace structure.
@@ -29,17 +31,20 @@ A collection of utility scripts for managing the repository.
 The core configuration for the monorepo.
 
 ### Monorepo Management
+
 - **`package.json`**: Defines workspaces (`react-sdk`, `showcase`, `docs`, `cli`, `packages/*`, `apps/*`) and shared dev dependencies.
 - **`turbo.json`**: Configures Turborepo for optimized task execution (build, test, lint) and caching.
 - **`package-lock.json`**: Locks dependencies for the entire monorepo.
 
 ### Environment & Deployment
+
 - **`docker-compose.yml`**: Multi-container setup for running the full Tambo stack (API, DB, Web).
 - **`docker.env.example`**: Example environment file for Docker deployments.
 - **`conductor.json`**, **`conductor-setup.sh`**, **`conductor-run.sh`**: Configuration for the "Conductor" orchestration tool.
 - **`mise.toml`**: Environment manager configuration (similar to asdf).
 
 ### Code Quality & Standards
+
 - **`eslint.config.mjs`**: Shared ESLint configuration for the entire repository.
 - **`prettierrc`**, **`.prettierignore`**: Shared formatting rules.
 - **`lint-staged.config.mjs`**: Configures linting on files staged for commit.
@@ -47,6 +52,7 @@ The core configuration for the monorepo.
 - **`.cursorignore`**, **`.dockerignore`**, **`.gitignore`**: Files and directories to ignore in various contexts.
 
 ### Documentation & Guides
+
 - **`README.md`**: The primary entry point for the repository.
 - **`CONTRIBUTING.md`**: Guidelines for developers.
 - **`LICENSE`**: MIT/Apache-2.0 license terms.
