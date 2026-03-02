@@ -20,6 +20,7 @@
 <p align="center">
   <a href="https://tambo.link/yXkF0hQ">Start For Free</a> •
   <a href="https://docs.tambo.co">Docs</a> •
+  <a href="extensive-docs/HIGH_LEVEL_OVERVIEW.md">Extensive Docs</a> •
   <a href="https://discord.gg/dJNvPEHth6">Discord</a>
 </p>
 
